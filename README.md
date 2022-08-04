@@ -1,14 +1,16 @@
 # Memories App (MERN stack)
 
-Full-stack app where users can create, read, update and delete memory cards.
+The full-stack app where users can create, read, update and delete cards with their memories or just famous places.
 
 ## Main features
 
 - Sign In, Sign Up, Google authentication
-- MongoDB
-- Material UI
-- CRUD cards
+- Full-fledged process of interaction with cards (CRUD)
+- Search posts by title ot tags
+- Like/Unlike post
 - Recommended posts feature
+- Single post page
+- Pagination
 - Responsive web-design
 
 Used technologies:
@@ -22,7 +24,28 @@ Used technologies:
 
 Quick demo:
 
-![](https://github.com/dorvika/food-app/blob/main/food-app.gif)
+1. Sign In, Sign Up, Google authentication
+
+![](https://github.com/dorvika/memories-app/blob/master/demo/auth.gif)
+
+2. CRUD
+
+![](https://github.com/dorvika/memories-app/blob/master/demo/crud.gif)
+
+3. Search
+
+![](https://github.com/dorvika/memories-app/blob/master/demo/search.gif)
+
+4. Single post page, recommended posts, pagination
+
+![](https://github.com/dorvika/memories-app/blob/master/demo/single-card-page.gif)
+
+## Running the local server
+
+1. Open a new bash shell
+2. `cd server`
+3. `npm install` or `yarn install`
+4. `npm run start` or `yarn start`
 
 ## Run application
 
@@ -31,7 +54,7 @@ Quick demo:
 3. `npm install` or `yarn install`
 4. `npm run start` or `yarn start`
 
-### Super secret info
+### Super secret info in case you don't want to create MongoDB or Google Auth Token. Please, be quiet!
 
 ```
   PORT = 5000
