@@ -6,7 +6,7 @@ The full-stack app where users can create, read, update and delete cards with th
 
 - Sign In, Sign Up, Google authentication
 - Full-fledged process of interaction with cards (CRUD)
-- Search posts by title ot tags
+- Search posts by title or tags
 - Like/Unlike post
 - Recommended posts feature
 - Single post page
